@@ -18,7 +18,7 @@ export default {
 </script>
 <script setup>
 import homeIcon from "@/assets/img/mihoyo-logo.png";
-import homeVue from "./components/home-code.vue";
+import homeVue from "./home-intro-code.vue";
 </script>
 <template>
   <div id="__nuxt" style="visibility: visible">
@@ -59,6 +59,7 @@ import homeVue from "./components/home-code.vue";
                 </div>
               </div>
             </div>
+            <!----主要内容---->
             <homeVue />
           </div>
         </div>
